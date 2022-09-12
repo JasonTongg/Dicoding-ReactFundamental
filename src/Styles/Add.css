@@ -1,0 +1,42 @@
+.addContainer{
+    width: 100%;
+    padding: 2rem 3rem;
+    background-color: rgb(129, 129, 255);
+}
+
+@media only screen and (max-width: 500px){
+    .addContainer{
+        padding: 2rem 1rem;
+    }
+}
+
+.addContainer input, .addContainer textarea{
+    color: white;
+    width: 100%;
+    background-color: transparent;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.addContainer input::placeholder, .addContainer textarea::placeholder{
+    color: white;
+}
+
+.addContainer textarea{
+    font-size: 1.2rem;
+    margin-block: 1rem;
+}
+
+.addContainer button{
+    width: 100%;
+    padding: .5rem;
+    font-size: 1.2rem;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}

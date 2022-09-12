@@ -1,0 +1,23 @@
+.headerContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.headerContainer a{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(76, 76, 248);
+    font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.headerContainer a.active{
+    background-color: rgb(140, 140, 255);
+    border: 1px solid rgb(140, 140, 255);
+    color: white
+}

@@ -1,0 +1,14 @@
+.navbarContainer{
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(76, 76, 248);
+    font-size: 2rem;
+    color: white;
+}
+
+.navbarContainer p{
+    cursor: pointer;
+}
